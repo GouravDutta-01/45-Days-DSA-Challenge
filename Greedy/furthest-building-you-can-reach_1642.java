@@ -1,4 +1,4 @@
-// Question Link :
+// Question Link : https://leetcode.com/problems/furthest-building-you-can-reach/
 class Solution {
     public int furthestBuilding(int[] heights, int bricks, int ladders) {
         PriorityQueue<Integer> pq = new PriorityQueue<>(Collections.reverseOrder());
